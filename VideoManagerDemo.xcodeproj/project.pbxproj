@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB56768165A2A10001BC1D8 /* KNVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB56767165A2A10001BC1D8 /* KNVideoCapture.m */; };
+		BE042E0016198614003D5363 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042DFF16198614003D5363 /* UIKit.framework */; };
+		BE042E0216198614003D5363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042E0116198614003D5363 /* Foundation.framework */; };
+		BE042E0416198614003D5363 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042E0316198614003D5363 /* CoreGraphics.framework */; };
+		BE042E0A16198614003D5363 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE042E0816198614003D5363 /* InfoPlist.strings */; };
+		BE042E0C16198614003D5363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE042E0B16198614003D5363 /* main.m */; };
+		BE042E1016198614003D5363 /* KNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE042E0F16198614003D5363 /* KNAppDelegate.m */; };
+		BE042E1216198614003D5363 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE042E1116198614003D5363 /* Default.png */; };
+		BE042E1416198614003D5363 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE042E1316198614003D5363 /* Default@2x.png */; };
+		BE042E1616198614003D5363 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE042E1516198614003D5363 /* Default-568h@2x.png */; };
+		BE042E1916198614003D5363 /* KNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE042E1816198614003D5363 /* KNViewController.m */; };
+		BE042E1C16198614003D5363 /* KNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE042E1A16198614003D5363 /* KNViewController.xib */; };
+		BE042E2416198614003D5363 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042E2316198614003D5363 /* SenTestingKit.framework */; };
+		BE042E2516198614003D5363 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042DFF16198614003D5363 /* UIKit.framework */; };
+		BE042E2616198614003D5363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042E0116198614003D5363 /* Foundation.framework */; };
+		BE042E3B16198622003D5363 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042E3A16198622003D5363 /* AVFoundation.framework */; };
+		BE042E4416199616003D5363 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042E4316199616003D5363 /* CoreMedia.framework */; };
+		BE042E461619961C003D5363 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE042E451619961C003D5363 /* CoreVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE042E2716198614003D5363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE042DF216198614003D5363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE042DFA16198614003D5363;
+			remoteInfo = VideoManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB56766165A2A10001BC1D8 /* KNVideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNVideoCapture.h; sourceTree = "<group>"; };
+		1DB56767165A2A10001BC1D8 /* KNVideoCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNVideoCapture.m; sourceTree = "<group>"; };
+		BE042DFB16198614003D5363 /* VideoManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE042DFF16198614003D5363 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE042E0116198614003D5363 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE042E0316198614003D5363 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE042E0716198614003D5363 /* VideoManagerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoManagerDemo-Info.plist"; sourceTree = "<group>"; };
+		BE042E0916198614003D5363 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE042E0B16198614003D5363 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE042E0D16198614003D5363 /* VideoManagerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoManagerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BE042E0E16198614003D5363 /* KNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNAppDelegate.h; sourceTree = "<group>"; };
+		BE042E0F16198614003D5363 /* KNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNAppDelegate.m; sourceTree = "<group>"; };
+		BE042E1116198614003D5363 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE042E1316198614003D5363 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE042E1516198614003D5363 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE042E1716198614003D5363 /* KNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNViewController.h; sourceTree = "<group>"; };
+		BE042E1816198614003D5363 /* KNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNViewController.m; sourceTree = "<group>"; };
+		BE042E1B16198614003D5363 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KNViewController.xib; sourceTree = "<group>"; };
+		BE042E2216198614003D5363 /* VideoManagerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoManagerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE042E2316198614003D5363 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE042E3A16198622003D5363 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE042E4316199616003D5363 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BE042E451619961C003D5363 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE042DF816198614003D5363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE042E461619961C003D5363 /* CoreVideo.framework in Frameworks */,
+				BE042E4416199616003D5363 /* CoreMedia.framework in Frameworks */,
+				BE042E3B16198622003D5363 /* AVFoundation.framework in Frameworks */,
+				BE042E0016198614003D5363 /* UIKit.framework in Frameworks */,
+				BE042E0216198614003D5363 /* Foundation.framework in Frameworks */,
+				BE042E0416198614003D5363 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE042E1E16198614003D5363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE042E2416198614003D5363 /* SenTestingKit.framework in Frameworks */,
+				BE042E2516198614003D5363 /* UIKit.framework in Frameworks */,
+				BE042E2616198614003D5363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB56765165A2A10001BC1D8 /* KNVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				1DB56766165A2A10001BC1D8 /* KNVideoCapture.h */,
+				1DB56767165A2A10001BC1D8 /* KNVideoCapture.m */,
+			);
+			path = KNVideoManager;
+			sourceTree = "<group>";
+		};
+		BE042DF016198614003D5363 = {
+			isa = PBXGroup;
+			children = (
+				1DB56765165A2A10001BC1D8 /* KNVideoManager */,
+				BE042E0516198614003D5363 /* VideoManagerDemo */,
+				BE042DFE16198614003D5363 /* Frameworks */,
+				BE042DFC16198614003D5363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE042DFC16198614003D5363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE042DFB16198614003D5363 /* VideoManagerDemo.app */,
+				BE042E2216198614003D5363 /* VideoManagerDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE042DFE16198614003D5363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE042E451619961C003D5363 /* CoreVideo.framework */,
+				BE042E4316199616003D5363 /* CoreMedia.framework */,
+				BE042E3A16198622003D5363 /* AVFoundation.framework */,
+				BE042DFF16198614003D5363 /* UIKit.framework */,
+				BE042E0116198614003D5363 /* Foundation.framework */,
+				BE042E0316198614003D5363 /* CoreGraphics.framework */,
+				BE042E2316198614003D5363 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE042E0516198614003D5363 /* VideoManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE042E0E16198614003D5363 /* KNAppDelegate.h */,
+				BE042E0F16198614003D5363 /* KNAppDelegate.m */,
+				BE042E1716198614003D5363 /* KNViewController.h */,
+				BE042E1816198614003D5363 /* KNViewController.m */,
+				BE042E1A16198614003D5363 /* KNViewController.xib */,
+				BE042E0616198614003D5363 /* Supporting Files */,
+			);
+			path = VideoManagerDemo;
+			sourceTree = "<group>";
+		};
+		BE042E0616198614003D5363 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE042E0716198614003D5363 /* VideoManagerDemo-Info.plist */,
+				BE042E0816198614003D5363 /* InfoPlist.strings */,
+				BE042E0B16198614003D5363 /* main.m */,
+				BE042E0D16198614003D5363 /* VideoManagerDemo-Prefix.pch */,
+				BE042E1116198614003D5363 /* Default.png */,
+				BE042E1316198614003D5363 /* Default@2x.png */,
+				BE042E1516198614003D5363 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE042DFA16198614003D5363 /* VideoManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE042E3416198614003D5363 /* Build configuration list for PBXNativeTarget "VideoManagerDemo" */;
+			buildPhases = (
+				BE042DF716198614003D5363 /* Sources */,
+				BE042DF816198614003D5363 /* Frameworks */,
+				BE042DF916198614003D5363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoManagerDemo;
+			productName = VideoManagerDemo;
+			productReference = BE042DFB16198614003D5363 /* VideoManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE042E2116198614003D5363 /* VideoManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE042E3716198614003D5363 /* Build configuration list for PBXNativeTarget "VideoManagerDemoTests" */;
+			buildPhases = (
+				BE042E1D16198614003D5363 /* Sources */,
+				BE042E1E16198614003D5363 /* Frameworks */,
+				BE042E1F16198614003D5363 /* Resources */,
+				BE042E2016198614003D5363 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE042E2816198614003D5363 /* PBXTargetDependency */,
+			);
+			name = VideoManagerDemoTests;
+			productName = VideoManagerDemoTests;
+			productReference = BE042E2216198614003D5363 /* VideoManagerDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE042DF216198614003D5363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Choi Yeong Hyeon";
+			};
+			buildConfigurationList = BE042DF516198614003D5363 /* Build configuration list for PBXProject "VideoManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE042DF016198614003D5363;
+			productRefGroup = BE042DFC16198614003D5363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE042DFA16198614003D5363 /* VideoManagerDemo */,
+				BE042E2116198614003D5363 /* VideoManagerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE042DF916198614003D5363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE042E0A16198614003D5363 /* InfoPlist.strings in Resources */,
+				BE042E1216198614003D5363 /* Default.png in Resources */,
+				BE042E1416198614003D5363 /* Default@2x.png in Resources */,
+				BE042E1616198614003D5363 /* Default-568h@2x.png in Resources */,
+				BE042E1C16198614003D5363 /* KNViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE042E1F16198614003D5363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE042E2016198614003D5363 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE042DF716198614003D5363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE042E0C16198614003D5363 /* main.m in Sources */,
+				BE042E1016198614003D5363 /* KNAppDelegate.m in Sources */,
+				BE042E1916198614003D5363 /* KNViewController.m in Sources */,
+				1DB56768165A2A10001BC1D8 /* KNVideoCapture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE042E1D16198614003D5363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE042E2816198614003D5363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE042DFA16198614003D5363 /* VideoManagerDemo */;
+			targetProxy = BE042E2716198614003D5363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE042E0816198614003D5363 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE042E0916198614003D5363 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE042E1A16198614003D5363 /* KNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE042E1B16198614003D5363 /* en */,
+			);
+			name = KNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE042E3216198614003D5363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE042E3316198614003D5363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE042E3516198614003D5363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoManagerDemo/VideoManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "VideoManagerDemo/VideoManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE042E3616198614003D5363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoManagerDemo/VideoManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "VideoManagerDemo/VideoManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE042E3816198614003D5363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoManagerDemo.app/VideoManagerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoManagerDemo/VideoManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "VideoManagerDemoTests/VideoManagerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE042E3916198614003D5363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoManagerDemo.app/VideoManagerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoManagerDemo/VideoManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "VideoManagerDemoTests/VideoManagerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE042DF516198614003D5363 /* Build configuration list for PBXProject "VideoManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE042E3216198614003D5363 /* Debug */,
+				BE042E3316198614003D5363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE042E3416198614003D5363 /* Build configuration list for PBXNativeTarget "VideoManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE042E3516198614003D5363 /* Debug */,
+				BE042E3616198614003D5363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE042E3716198614003D5363 /* Build configuration list for PBXNativeTarget "VideoManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE042E3816198614003D5363 /* Debug */,
+				BE042E3916198614003D5363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE042DF216198614003D5363 /* Project object */;
+}
